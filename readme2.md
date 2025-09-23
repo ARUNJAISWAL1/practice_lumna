@@ -127,6 +127,8 @@ Deploy your project and you will get the link
 
 In order to get the data from the form submission you have to add name attributes to the elements and add
 
-<form name="contact" netlify> this attribute needs to be added to the form attribute
+form name="contact" method="POST" netlify
+
+this attribute needs to be added to the form attribute
 
 Post making any changes to the project. Go to deploys section on the website of nelify and press "triggerdeploy"
