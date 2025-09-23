@@ -109,3 +109,24 @@ git add .
 git commit -m 'comm'
 
 git push
+
+
+# Deployment to Netlify
+
+Login to Netlify using your github account
+
+Click on <Add a new Project> -> Import an existing project
+
+Deploy with github
+
+Choose your github project
+
+Type your project name
+
+Deploy your project and you will get the link
+
+In order to get the data from the form submission you have to add name attributes to the elements and add
+
+<form name="contact" netlify> this attribute needs to be added to the form attribute
+
+Post making any changes to the project. Go to deploys section on the website of nelify and press "triggerdeploy"
