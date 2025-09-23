@@ -31,10 +31,15 @@ cat file1.txt file2.txt
 
 cat file1.txt file2.txt > combined.txt
 
-# This command waits for you to type
+# Create a new file 
 
 cat > newfile.txt
+
+#### This command waits for you to type
+
 After running this, you can type your text, press Enter, and then use Ctrl + D to save and exit.
+
+# Post creation of SSH key 
 
 Copy the pub key that you've created and go to gihub account -> settings -> ssh and gpg keys -> add a new ssh key
 
@@ -67,26 +72,40 @@ o/p -> Identity added: /c/Users/arunj/.ssh/new_ssh (jaiswal.najafgarh@gmail.com)
 ---
 
 Create a new repository on git hub / make it public or private
+
 Open the integrated termial as stated above in your code editor
+
 Now change your directory to the project location
+
 add .gitignore file in your project and mention the name of file which you don't want to publish and .means the hidden file e.g .env You can also add your database or login file which you don't want to add.
 
 # Git Workflow
 
 git init
+
 // write some code or make some changes.
+
 git add . ( in place of code you can write your file name as well )
+
 git commit -m 'comments'
 
-Above commands will add your file to .git ( hidden file ) which is your local repo. Remember, your project is added to local repo only not to the github profile.
+##### Above commands will add your file to .git ( hidden file ) which is your local repo. Remember, your project is added to local repo only not to the github profile.
 
-For the first time you have to do the following steps ::
+
+## For the first time you have to do the following steps ::
+
 git remote add origin https://github.com/ARUNJAISWAL1/practice_lumna.git
+
 git branch -M main
+
 git push -u origin main
 
-Now the file is uploaded to your github profile and you have to do only these steps for making / uploading any changes
+#### Now the file is uploaded to your github profile and you have to do only these steps for making / uploading any changes
+
 git init
+
 git add .
+
 git commit -m 'comm'
+
 git push
