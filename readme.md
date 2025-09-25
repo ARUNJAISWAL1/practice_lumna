@@ -1,16 +1,16 @@
 # Lumna Creative
 
-Simple HTML/CSS website for a creative responseive website
+Simple HTML/CSS website for a creative, responsive website
 
-Visit here for the webiste:-
+Visit here for the website:-
 
-https://lumna.netlify.app/about
+https://luminapractice.netlify.app/
 
-Go to cdn js for getting lightbox css and js link to embed in your html file
+Go to CDN JS for getting the lightbox CSS and JS link to embed in your HTML file
 
-Also, search for jquery as jquery is als a dependency.
+Also, search for jQuery as jQuery is also a dependency.
 
-Now go to images in your html and add
+Now go to the images in your HTML and add
 
 data-lightbox = "image-1"
 data-title = "Image-1"
